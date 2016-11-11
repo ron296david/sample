@@ -55,7 +55,7 @@ public class Sample_tests {
     //====================================================================================
     @Test
     public void isInMaster_test() throws Exception {
-        System.out.println("Test that fails 1");
+        System.out.println("look for it in master");
         Assert.assertTrue(true);
     }
     //====================================================================================
