@@ -54,6 +54,14 @@ public class Sample_tests {
 
     //====================================================================================
     @Test
+    public void fail3_test() throws Exception {
+        System.out.println("Test that fails 1");
+        Assert.assertTrue(true);
+    }
+    //====================================================================================
+
+    //====================================================================================
+    @Test
     public void isInMaster_test() throws Exception {
         System.out.println("look for it in maste   r");
         Assert.assertTrue(true);
