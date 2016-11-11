@@ -17,7 +17,7 @@ public class Sample_tests {
     //====================================================================================
     @Before
     public void setUp() throws Exception {
-        System.out.println("Before test");
+        System.out.println("Before testdsfdsf ");
     }
     //====================================================================================
 
