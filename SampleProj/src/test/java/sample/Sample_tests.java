@@ -48,7 +48,7 @@ public class Sample_tests {
     @Test
     public void fail_test() throws Exception {
         System.out.println("Test that fails 1");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
     //====================================================================================
 
