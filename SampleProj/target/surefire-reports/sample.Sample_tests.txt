@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: sample.Sample_tests
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec <<< FAILURE!
-fail_test(sample.Sample_tests)  Time elapsed: 0.01 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec <<< FAILURE!
+fail_test(sample.Sample_tests)  Time elapsed: 0.017 sec  <<< FAILURE!
 junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:48)
 	at junit.framework.Assert.assertTrue(Assert.java:20)
@@ -31,8 +31,8 @@ junit.framework.AssertionFailedError
 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:242)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:137)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
