@@ -32,7 +32,7 @@ public class Sample_Test {
     @Test
     public void pass1_test() throws Exception {
         System.out.println("Test that passes");
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
     //====================================================================================
 
