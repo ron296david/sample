@@ -45,7 +45,7 @@ public class Sample_tests {
     //====================================================================================
 
     //====================================================================================
-    //@Test
+    @Test
     public void fail_test() throws Exception {
         System.out.println("Test that fails 1");
         Assert.assertTrue(true);
@@ -56,7 +56,7 @@ public class Sample_tests {
     @Test
     public void fail3_test() throws Exception {
         System.out.println("Test that fails 1");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
     //====================================================================================
 
