@@ -4,6 +4,6 @@ function Get-CommitsFromGitLog([string] $StartCommit, [string] $EndCommit){
  
     $Result = Invoke-Expression $Cmd
     $ParsedResult = $Result | %{ ConvertFrom-StringData($_ -replace " :: ", "`n")  }
- 
+	Write-Output $ParsedResult
     return $ParsedResult
 }
