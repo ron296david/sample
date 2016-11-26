@@ -15,13 +15,3 @@ if %VAR% == %BRANCHFINISH% (
 	git merge masterCopy
 	git push origin master
 )
-
-rem if "finish" in %VAR% goto FoundIt 
-rem echo Did not find finish.
-rem exit 1
-
-rem :FoundIt
-rem echo Found finish!
-rem exit 0
-
-rem --pretty=%B - not working
