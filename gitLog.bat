@@ -7,11 +7,11 @@ rem set /p VAR=<temp.txt
 echo Git last comment  = %VAR%
 
 
-if %VAR% == %BRANCHFINISH% (
-	echo Branch is finished - merging and trying to push to master...
-	echo "Merge and push to master"
-	git checkout master
-	git pull origin master
-	git merge masterCopy
-	git push origin master
-)
+rem if %VAR% == %BRANCHFINISH% (
+rem 	echo Branch is finished - merging and trying to push to master...
+rem 	echo "Merge and push to master"
+rem 	git checkout master
+rem 	git pull origin master
+rem 	git merge masterCopy
+rem 	git push origin master
+
