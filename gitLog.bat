@@ -7,12 +7,12 @@ echo %VAR%
 
 
 
-if "finish" in %VAR% goto FoundIt 
-echo Did not find finish.
-exit 1
+rem if "finish" in %VAR% goto FoundIt 
+rem echo Did not find finish.
+rem exit 1
 
-:FoundIt
-echo Found finish!
-exit 0
+rem :FoundIt
+rem echo Found finish!
+rem exit 0
 
 rem --pretty=%B - not working
