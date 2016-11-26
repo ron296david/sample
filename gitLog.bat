@@ -14,4 +14,8 @@ if %VAR% == %BRANCHFINISH% (
 	git pull origin master
 	git merge masterCopy
 	git push origin master
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> masterCopy
